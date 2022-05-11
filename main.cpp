@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
     Sort* bubbleSort = new BubbleSort();
-    // Sort* quickSort = new QuickSort();
+    Sort* quickSort = new QuickSort();
     RecursiveBinarySearch* binarySearch = new RecursiveBinarySearch();
 
     vector<int> num;
@@ -25,8 +25,9 @@ int main() {
         num.push_back(i);
     }
 
-    num = bubbleSort->sort(num);
-    cout << binarySearch->search(num, 1) << " ";
+    num = quickSort->sort(num);
+    if (binarySearch->search(num, 1)) cout << "true ";
+    else cout << "false ";
 
     int n = num.size();
     for (int i = 0; i < n; i++) {

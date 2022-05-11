@@ -1,7 +1,7 @@
 #include "RecursiveBinarySearch.h"
 #include <vector>
 
-bool helper(std::vector<int> list, int target, int start, int end) {
+bool RecursiveBinarySearch::helper(std::vector<int> list, int target, int start, int end) {
     if (start > end) return false;
     int mid = start + (end - start) / 2;
 

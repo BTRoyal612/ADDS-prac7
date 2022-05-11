@@ -11,7 +11,7 @@
 using namespace std;
 
 int main() {
-    Sort* bubbleSort = new BubbleSort();
+    // Sort* bubbleSort = new BubbleSort();
     Sort* quickSort = new QuickSort();
     RecursiveBinarySearch* binarySearch = new RecursiveBinarySearch();
 

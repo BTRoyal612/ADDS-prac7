@@ -1,6 +1,7 @@
 #include "Sort.h"
 #include "BubbleSort.h"
 #include "RecursiveBinarySearch.h"
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -26,8 +27,9 @@ int main() {
     num = bubbleSort->sort(num);
     if (binarySearch->search(num, 1)) cout << "true ";
     else cout << "false ";
-    
-    for (int i = 0; i < num.size(); i++) {
+
+    int n = num.size();
+    for (int i = 0; i < n; i++) {
         cout << num.at(i) << " ";
     }
     cout << endl;

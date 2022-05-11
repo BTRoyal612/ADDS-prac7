@@ -1,5 +1,5 @@
 clean :
-	rm *.o a.out
+	rm *.o *.out
 
 all : RecursiveBinarySearch.o BubbleSort.o Sort.o main.cpp
 	g++ RecursiveBinarySearch.o BubbleSort.o Sort.o main.cpp

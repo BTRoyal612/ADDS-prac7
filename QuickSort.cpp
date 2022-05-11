@@ -3,6 +3,8 @@
 #include <iostream>
 
 std::vector<int> QuickSort::partition(std::vector<int> list, int low, int high) {
+    if ((high - low) > 2) swap(list.at(low + 2), list.at(high));
+
     int p = list.at(high);
     int i = low - 1;
 

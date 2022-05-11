@@ -1,6 +1,12 @@
 #include "BubbleSort.h"
 #include <vector>
 
+void BubbleSort::swap(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
 std::vector<int> BubbleSort::sort(std::vector<int> list) {
     int n = list.size();
     for (int i = 0; i < n-1; i++) {

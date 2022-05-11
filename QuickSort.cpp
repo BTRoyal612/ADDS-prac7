@@ -1,6 +1,5 @@
 #include "QuickSort.h"
 #include <vector>
-#include <iostream>
 
 std::vector<int> QuickSort::sort(std::vector<int> list) {
     int n = list.size();

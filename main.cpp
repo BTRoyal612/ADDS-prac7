@@ -26,8 +26,7 @@ int main() {
     }
 
     num = bubbleSort->sort(num);
-    if (binarySearch->search(num, 1)) cout << "true ";
-    else cout << "false ";
+    cout << binarySearch->search(num, 1) << " ";
 
     int n = num.size();
     for (int i = 0; i < n; i++) {

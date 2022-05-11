@@ -1,6 +1,5 @@
 #include "BubbleSort.h"
 #include <vector>
-#include <iostream>
 
 std::vector<int> BubbleSort::sort(std::vector<int> list) {
     int n = list.size();

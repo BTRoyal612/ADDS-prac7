@@ -10,5 +10,8 @@ Sort.o : Sort.cpp Sort.h
 BubbleSort.o : BubbleSort.cpp BubbleSort.h
 	g++ -c BubbleSort.cpp -o BubbleSort.o
 
+QuickSort.o : QuickSort.cpp QuickSort.h
+	g++ -c QuickSort.cpp -o QuickSort.o
+
 RecursiveBinarySearch.o : RecursiveBinarySearch.cpp RecursiveBinarySearch.h
 	g++ -c RecursiveBinarySearch.cpp -o RecursiveBinarySearch.o
